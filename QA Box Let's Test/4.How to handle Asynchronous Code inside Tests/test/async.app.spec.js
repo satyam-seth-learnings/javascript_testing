@@ -9,7 +9,7 @@ describe('Async test suite', () => {
     // })
 
     // it('done based way', (done) => {
-    //     return axios.get('https://reqres.in/api/users/2').then(res => {
+    //     axios.get('https://reqres.in/api/users/2').then(res => {
     //         expect(res.data.data.email).to.be.equal('janet.weaver@reqres.int');
     //         done();
     //     }).catch(err => {
