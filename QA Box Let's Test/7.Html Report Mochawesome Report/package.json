@@ -1,0 +1,20 @@
+{
+  "name": "7.Html Report Mochawesome Report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=Report,reportFilename=Test_Report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}
