@@ -1,5 +1,5 @@
 {
-  "name": "4.How to handle Asynchronous Code inside Tests",
+  "name": "5.Retry failed Test Case, Timeout Test Case, Skip Test Case(Suite) and Exec Only Test Case",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

@@ -1,0 +1,21 @@
+{
+  "name": "6.Command Line Options - Parallel Tests, Bail, Different Reports, Test Filters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/**/async.app.spec.js'",
+    "cmdline:bail": "mocha 'test/**/async.app.spec.js' -b",
+    "cmdline:report": "mocha 'test/**/async.app.spec.js' -R 'progress'",
+    "cmdline:parallel": "mocha --parallel",
+    "cmdline:filter": "mocha -g 'async'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
